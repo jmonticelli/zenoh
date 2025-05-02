@@ -47,6 +47,7 @@ use zenoh_result::ZResult;
 pub const BIND_INTERFACE: &str = "iface";
 pub const TCP_SO_SND_BUF: &str = "so_sndbuf";
 pub const TCP_SO_RCV_BUF: &str = "so_rcvbuf";
+pub const LOCATOR_OVERRIDE_ADDRESS: &str = "loc_addr";
 
 #[derive(Clone, Debug, Serialize, Hash, PartialEq, Eq)]
 pub struct Link {
